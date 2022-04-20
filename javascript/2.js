@@ -169,7 +169,7 @@ function thongtin(){
   } 
   var gt=document.getElementById("GioiTinh");
   var gt1=document.getElementById("GioiTinh1");
-  if ((gt.checked==true)&&(gt1.checked==true)){  
+ if ((gt.checked==" ")&&(gt1.checked==" ")){  
   alert("Bạn chưa chọn giới tính.") ;    
   gt.focus();
   return false;

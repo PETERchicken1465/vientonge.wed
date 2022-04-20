@@ -320,6 +320,7 @@ div.hang1 li input[type="email"]{
  border: 1px solid #DBDBDB;
  font-size: medium;
  padding-left: 10px;
+
 }
 div.hang1 li input[type="tel"]{
   width:400px;
@@ -328,6 +329,7 @@ div.hang1 li input[type="tel"]{
  border: 1px solid #DBDBDB;
  font-size: medium;
  padding-left: 10px;
+ margin-bottom: 20px;
 
 }
 div.hang1 li textarea#diachi{
@@ -387,7 +389,7 @@ input[type="submit"]:hover{
 form li .icons{
   position: absolute;
   right: 780px;
-  top:656px;  
+  top:675px;  
 }
 li .icons span{
   display: none;
@@ -454,7 +456,7 @@ li .icons_tel span.iconSuccess_tel{
   color: #27ae60;
   border-color: #27ae60;
 }
-form li .error-text_tel{
+li .error-text_tel{
   position: relative; 
   margin: 11px 0px -8px 0px;
   background: #e74c3c;
@@ -465,7 +467,10 @@ form li .error-text_tel{
   text-align: center;
   display: none;
   margin-right: 100px;
-  margin-top: -10px;
+  margin-top: -30px;
+  box-sizing: border-box;
+
+ 
 }
 form .error-text_tel:before{
   position: absolute;
